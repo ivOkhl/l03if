@@ -5,7 +5,7 @@ if (a>b) {
 }   else {
 	m1 = b;
 }
- if c>d; {
+ if (c>d) {
 	 m2=d;
  }  else {
 	 m2=d;
