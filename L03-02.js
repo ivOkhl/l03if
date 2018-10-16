@@ -1,17 +1,17 @@
 function f(a,b,c,d){
-   var max1,max2,res,min1,min2;
-   if (Math.abs(a) < Math.abs(b))
-      min1=Math.abs(a);
+   var res,min1,min2;
+   if (a < b)
+      min1 = a;
    else
-      min2=Math.abs(b);
-    if (Math.abs(c) < Math.abs(d))
-      max1=Math.abs(c);
+      min1 = b;  
+       if (c < d)
+      min2 = c;
     else
-      max2=Math.abs(d);
+      min2 = d;
 
-    if (min1>max2)
+    if (min1 > min2)
       res = min1;
     else
-      res = max2;
+      res = min2;
      return res;
 }
