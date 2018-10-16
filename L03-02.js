@@ -1,5 +1,5 @@
 function f(a,b,c,d) {
-	var min1, min2, res;
+	var min1, min2, max;
 	if(Math.abs(a) < Math.abs(b))
 		min1 = Math.abs(a);
 	else
@@ -11,11 +11,11 @@ function f(a,b,c,d) {
 		min2 = Math.abs(c);
 
 	if (min1>min2)
-		res = min1;
+		max = min1;
 	else
-		res = min2;
+		max = min2;
 
-	return res;
+	return max;
 
 
 
