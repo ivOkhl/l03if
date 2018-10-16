@@ -13,7 +13,7 @@ function f(a,b,c,d) {
 	if (min1>min2)
 		res = min1;
 	else
-		res = max2;
+		res = min2;
 
 	return res;
 
