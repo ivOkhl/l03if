@@ -1,15 +1,15 @@
-function f(a,b,c,d) { ///min(max(a,b),max(c,d))
-	
-}
-
-function min(a,b) {
-	if (a<b) return a;
+function f(a,b,c,d) {
+	var max1 = 0;
+	var max2 = 0;
+	var min = 0;
+	if (a < b) max1 = b;
 		else
-			return b;
-}
-
-function max(a,b) {
-	if (a>b) return a;
+			max1 = a;
+	if (c < d) max2 = d;
 		else
-			return b;	
+			max2 = c;
+	if (max1 < max2) min = max1;
+		else
+			min = max2;
+	return min;
 }
