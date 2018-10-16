@@ -5,13 +5,13 @@ function f(a,b,c,d)
 	var m1, m2, res;
 	
 	if (Math.abs(a)<Math.abs(b)) {
-		m1 = (a);	} 
+		m1 = Math.abs(a);	} 
 	else {
-		m1 = (b);	}  
-	if (Math.abs(c)>Math.abs(b)) {
-		m2 = (c);	}
+		m1 = Math.abs(b);	}  
+	if (Math.abs(c)>Math.abs(d)) {
+		m2 = Math.abs(c);	}
 	else {
-		m2 = (d);	}
+		m2 = Math.abs(d);	}
 	if (m1>m2) {
 		res = m1;	}
 	else {
