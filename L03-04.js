@@ -2,17 +2,21 @@
 
 function f(a,b,c,d)
 {
-	var min, max, res;
+	var m1, m2, res;
 	
-	if (a<b) {
-		min = abs(a);} 
+	if (Math.abs(a)<Math.abs(b)) {
+		m1 = (a);	} 
 	else {
-		min = abs(b);}  
-	if (c>b) {
-		max = c;}
+		m1 = (b);	}  
+	if (Math.abs(c)>Math.abs(b)) {
+		m2 = (c);	}
+	else {
+		m2 = (d);	}
+	if (m1>m2) {
+		res = m1;	}
+	else {
+		res = m2	}
 	}
-	
-
-	
+		
 	return res;
 }
