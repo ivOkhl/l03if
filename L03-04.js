@@ -4,10 +4,12 @@ function f(a,b,c,d)
 {
 	var min, max, res;
 	
-	if (a>b) {
-		min = a;} 
+	if (a<b) {
+		min = abs(a);} 
 	else {
-		min = b; }
+		min = abs(b);}  
+	if (c>b) {
+		max = c;}
 	}
 	
 
