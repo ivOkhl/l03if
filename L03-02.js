@@ -8,6 +8,10 @@ function f (a, b, c, d) {
 		min2=d;
 	else 
 		min2=c;
+	if (min1>min2)
+		res=min1;
+	else 
+		res=min2;
 
 	return res;
 }
