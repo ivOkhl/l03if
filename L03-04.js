@@ -16,7 +16,7 @@ function f(a,b,c,d)
 		res = m1;	}
 	else {
 		res = m2	}
-	}
+
 		
 	return res;
 }
