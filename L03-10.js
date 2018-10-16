@@ -39,6 +39,8 @@ var Name;
 		case 12:
 			Name="декабрь";
 			break;
+		default:
+			Name="";
 	}
 return Name;
 }
