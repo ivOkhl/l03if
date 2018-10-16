@@ -1,15 +1,15 @@
 function f(a,b,c,d) {
 	var m1,m2,res;
 	if (Math.abs(a)>Math.abs(b)) {
-		m1 = b;
+		m1 = Math.abs(b);
 	} else {
-		m1 = a;
+		m1 = Math.abs(a);
 	}
 	
 	if (Math.abs(c)>Math.abs(d)) {
-		m2 = c;
+		m2 = Math.abs(c);
 	} else {
-		m2 = d;
+		m2 = (d);
 	}
 	
 	if (m1>m2) {
