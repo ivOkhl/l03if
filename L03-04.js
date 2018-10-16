@@ -2,12 +2,12 @@
 
 function f(a,b,c,d)
 {
-	var m1, m2, res;
+	var min, max, res;
 	
 	if (a>b) {
-		m1 = a;} 
+		min = a;} 
 	else {
-		m1 = b; }
+		min = b; }
 	}
 	
 
